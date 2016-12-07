@@ -166,7 +166,7 @@ body {
  * Contact page
  */
  .contact {
-  background-color: #FFB2B2;
+  background-color: #811e1e;
   border-radius:10px;
   margin:10px;
   height:70px;
@@ -174,7 +174,7 @@ body {
  }
 
   .contact:hover {
-    background-color: #FF66FF;
+    background-color: #c16a6a;
   }
 
  /*
