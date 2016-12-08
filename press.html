@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="images/palmtreefavicon.ico">
 
-    <title>Karolina Pyszkiewicz</title>
+    <title>Vignesh Ramesh</title>
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
@@ -32,7 +32,7 @@
 
           <div class="masthead clearfix">
             <div class="inner">
-              <h3 class="masthead-brand">Karolina Pyszkiewicz</h3>
+              <h3 class="masthead-brand">Vignesh Ramesh</h3>
               <nav>
                 <ul class="nav masthead-nav">
                   <li><a href="index.html">Home</a></li>
@@ -51,18 +51,7 @@
           <div class="inner">
             <p class="lead">I've been featured in several articles over the past few years, listed here.
             If you would like to contact me regarding anything below, check out the Contact section!</p>
-            <ul class="press-links">
-              <li><a href="https://news.cs.washington.edu/2016/05/02/uw-cse-students-in-the-husky-100/" class="yellow">UW CSE students in the Husky 100</a></li>
-              <li><a href="http://www.washington.edu/husky100/" class="yellow">Husky 100</a></li>
-              <li><a href = "http://usat.ly/1Bt5Zlu" class="yellow">USA Today - 7 Sneaky Ways to Snag an Internship</a></li>
-              <li><a href = "http://www.geekwire.com/2014/women-coders-represent-uw-grace-hopper-conference-sound-nadellas-comments/" class="yellow">GeekWire - Women Coders Respond to Microsoft CEO's Controversial Comments on Asking for a Raise</a></li>
-              <li><a href = "https://expandingfrontiers.wordpress.com/2014/07/07/ncwit-summit-empowers-young-women-in-techology/" class="yellow">NCWIT Summit Empowers Young Women in Technology</a></li>
-              <li><a href = "https://www.aspirations.org/blog/my-experience-grace-hopper-2014" class="yellow">My Experience at Grace Hopper 2014</a></li>
-              <li><a href="http://www.redmond-reporter.com/news/284547921.html" class="yellow">Jackson, Inslee Address Crowd at Washington STEM Summit</a></li>
-              <li><a href = "https://news.cs.washington.edu/2014/12/02/uw-cse-at-the-2014-washington-stem-summit/" class="yellow">UW CSE at the 2014 Washington STEM Summit</a></li>
-              <li><a href="http://news.cs.washington.edu/2014/05/01/uw-cse-2014-scholarshipfellowship-recognition-luncheon/" class="yellow">UW CSE 2014 Scholarship/Fellowship Recognition Luncheon</a></li>
-              <li><a href="http://www.cs.washington.edu/public_files/publications/msb/html/24.1/news.html" class="yellow">Most Significant Bits - Newsletter of UW Computer Science & Engineering</a></li>
-            </ul>
+            <center><div id="chart" style="height: 500px; width: auto;" ></div><br></center>
           </div>
           </div>
         </div>
@@ -77,5 +66,55 @@
     <script src="../../assets/js/docs.min.js"></script> <!-- TODO -->
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="dist/js/highcharts.js"></script>
+    <script type="text/javascript">
+             var devcharts = {"languages": ["Python", "AngularJS", "Node.js", "HTML", "CSS", "Hadoop" ,"Java", "JavaScript", "Other", "AWS"],
+                          "counts": [1464, 1077, 657, 1010, 983 ,489, 582, 536, 83, 312]
+                         };
+             var chart_data = [];
+
+              for(var i = 0; i < devcharts.languages.length; i++) {
+                  var temp = new Array(
+                   devcharts.languages[i],
+                   devcharts.counts[i]
+                   );
+                  chart_data[i] = temp;
+              }
+
+              $('#chart').highcharts({
+                  chart: {
+                      plotBackgroundColor: null,
+                      plotShadow: false,
+                      backgroundColor:'rgba(255, 255, 255, 0)',
+                  },
+                  style: {
+                      fontFamily: 'Source Code Pro'
+                },
+                  title: {
+                      text: ''
+                  },
+                  tooltip: {
+                      pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                  },
+                  plotOptions: {
+                      pie: {
+                          allowPointSelect: true,
+                          cursor: 'pointer',
+                          dataLabels: {
+                              enabled: true,
+                              format: '<b>{point.name}</b>: {point.percentage:.2f} %',
+                              style: {
+                                  color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                              }
+                          }
+                      }
+                  },
+                  series: [{
+                      type: 'pie',
+                      name: 'Code Breakdown',
+                      data: chart_data,
+                  }]
+              });
+    </script>
   </body>
 </html>

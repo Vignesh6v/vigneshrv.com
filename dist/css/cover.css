@@ -30,16 +30,19 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #F5F3EE;
 }
 body {
-  color: #fff;
-  text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  color: #6D5A4E;
+  text-align:center;
+  text-shadow: 0 .10px .25px rgba(0,0,0,.5);
 }
 
+h2{
+  color: #DE1B1B;
+}
 .swirl {
-  background-image: url("../../images/swirl-grey.svg");
+  /*background-image: url("../../images/swirl-grey.svg");*/
   background-size:30%;
   background-repeat: repeat;
 }
@@ -92,8 +95,9 @@ body {
  */
 .masthead-brand {
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   font-size: 40px;
+  color: #2B2B2B;
 }
 
 .masthead-nav > li {
@@ -107,8 +111,8 @@ body {
   padding-left: 0;
   font-size: 16px;
   font-weight: bold;
-  color: #fff; /* IE8 proofing */
-  color: rgba(255,255,255,.75);
+  color: #7D1935; /* IE8 proofing */
+  /*color: rgba(255,255,255,.75);*/
   border-bottom: 2px solid transparent;
 }
 .masthead-nav > li > a:hover,
@@ -120,8 +124,8 @@ body {
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
+  color: #6D5A4E;
+  border-bottom-color: #6D5A4E;
 }
 
 @media (min-width: 768px) {
@@ -182,10 +186,12 @@ body {
   */
   .experience-section {
     overflow:hidden;
+    text-align: justify;
   }
 
   .experience-title {
     text-align:left;
+    color: #4A96AD;
   }
 
   .experience-img {
