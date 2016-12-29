@@ -59,13 +59,16 @@
             <div class="experience-section">
               <img src="images/experience/m-keyvalue.jpg" class="experience-img" alt="Microsoft Internship">
               <p class="experience-summary"> Developed an in memory key-value store (Distributed Systems course project) with features like Detection of Strict Consistency
-                or Eventually consistent and Support for Consistency levels. Last fall I was a software engineering intern at Facebook in Menlo Park.
-              There, I worked on the Support Interfaces team under the Protect and Care org. I implemented a new
-              Support Inbox item type that notifies victims of tag spam that the content they were tagged in was
-              taken down by Facebook for spam. With this new feature, victims are now aware of the efforts that
-              Facebook takes to make the platform more spam-free. By informing more people that action was taken
-              against spam, this will hopefully encourage more spam reporting behavior. This was done with a little
-              help from Hack (Facebook's PHP language), Haskell, SQL, and Thrift.</p>
+                or Eventually consistent and Support for Consistency levels.</p>
+            </div>
+            <br/ >
+
+            <h4 class="experience-title">Stroll</h4>
+            <div class="experience-section">
+              <img src="images/experience/stroll.png" class="experience-img" alt="Microsoft Internship">
+              <p class="experience-summary"> Stroll, a Crowdsourcing App which brings authentic walking tours designed by people that live and work there with crowdsourced reviews and photos.
+                Features: Popular nearby routes with unique experiences where users add multiple photos, rating, and comments.
+</p>
             </div>
             <br/ >
 
@@ -79,7 +82,10 @@
             <h4 class="experience-title">CitiBike</h4>
             <div class="experience-section">
               <img src="images/experience/citi.jpeg" class="experience-img" alt="Google Internship">
-              <p class="experience-summary">Developed an analytics application aimed at categorizing customers to facilitate targeted advertising, which will help to redesign marketing strategies and to improve customer base. Features: Google estimate analysis, bike rebalancing, boroughs distribution, effects of subways and seasons.</p>
+              <p class="experience-summary">Developed an analytics application aimed at categorizing customers to facilitate targeted advertising, which will help to redesign marketing strategies and to improve customer base.
+                Findings: Neighbourhood Trends - Citi Bike
+                Citi bike Customer segmentation, Taxi pickups and drop off location affecting the Citi Bike, Yellow Taxi vs Citi Bike Travel time, Hot-spot locations and peak-demand hours,
+                Weather affecting the business, Trends during various seasons.</p>
             </div>
             <br />
 
@@ -93,14 +99,19 @@
             <h4 class="experience-title">TweetMap</h4>
             <div class="experience-section">
               <img src="images/experience/m-tweet.jpeg" class="experience-img" alt="Google Computer Science Summer Institute">
-              <p class="experience-summary">Leveraged tweet data using the twitter API and displayed the same on a HeatMap using the Google Maps API</p>
+              <p class="experience-summary">Leveraged tweet data using the twitter API and displayed the same on a HeatMap using the Google Maps API while utilizing the ElasticSearch changefeed property to stream live data for a particular keyword using kafka and sns, thus reducing the overhead of polling the database constantly for new tweet data.
+                Used the Apache Kafka to create a processing queue for the Tweets that are delivered by the Twitter Streaming API.
+                Used Amazon SNS service to update the status processing on each tweet so the UI can refresh.
+                Integrated the third party cloud service API into the Tweet processing flow.</p>
             </div>
             <br />
 
             <h4 class="experience-title">Nutri Chart</h4>
             <div class="experience-section">
               <img src="images/experience/d3.png" class="experience-img bigger-size" alt="Facebook Hackathon">
-              <p class="experience-summary">Created barcharts, pie charts, Sactterplot, chord, area Interpolation and few other visual-charts using D3 Javascript. </p>
+              <p class="experience-summary">The goal of this project is to make food data more accessible to the world and to help users answer the question “What’s in my food?” and to assist them in making healthy choices about what to eat.
+                The application will give the user a high-level understanding of the nutrient composition of the food as a whole, with the option to drill down to more detailed information if needed.
+                Created Parallel coordinates barcharts, pie charts, Sactterplot, chord, area Interpolation and few other visual-charts using D3 Javascript. </p>
             </div>
             <br />
 
@@ -128,7 +139,7 @@
     <script src="dist/js/highcharts.js"></script>
     <script type="text/javascript">
              var devcharts = {"languages": ["Python", "AngularJS", "Node.js", "HTML", "CSS", "Hadoop" ,"Java", "JavaScript", "Other", "AWS"],
-                          "counts": [1464, 1077, 657, 1010, 983 ,489, 582, 536, 83, 312]
+                          "counts": [1464, 1077, 657, 1010, 983 ,489, 882, 536, 83, 312]
                          };
              var chart_data = [];
 
