@@ -1,0 +1,121 @@
+{
+  "data": [
+    {
+      "type": "fun",
+      "date": "Feb 2017",
+      "description": {
+        "what": "Listed as Feature Project at",
+        "emphasis": "NYUHACK",
+        "info": "Check out more about the project <a href='http://hacknyu2017.devpost.com/'>here</a>!"
+      }
+    },
+    {
+      "type": "job",
+      "date": "June 2016",
+      "description": {
+        "what": "Interned at",
+        "emphasis": "Radiator Labs",
+        "info": "Worked on the dashboard and operational app. I also did a lot of Python."
+      }
+    },
+    {
+      "type": "job",
+      "date": "August 2015",
+      "description": {
+        "what": "Joined as Graduate Student at",
+        "emphasis": "New York University",
+        "info": "Graduate student at New York University majoring in Computer Science. Go Cyclones!"
+      }
+    },
+    {
+      "type": "fun",
+      "date": "July 2015",
+      "description": {
+        "what": "Moved to",
+        "emphasis": "New York",
+        "info": "Time to get on the Subway. Manhattan Skyline!!"
+      }
+    },
+    {
+      "type": "event",
+      "date": "December 2014",
+      "description": {
+        "what": "Awarded as 2014's - ",
+        "emphasis": "Outstanding Employee",
+        "info": ""
+      }
+    },
+    {
+      "type": "event",
+      "date": "October 2014",
+      "description": {
+        "what": "Spotlight Award for the work at",
+        "emphasis": "Verizon Finance",
+        "info": ""
+      }
+    },
+    {
+      "type": "job",
+      "date": "Sep 2013",
+      "description": {
+        "what": "Joined full-time at",
+        "emphasis": "Verizon Communication",
+        "info": "Joined after graduation as a software engineer in Verizon's Finance team."
+      }
+    },
+    {
+      "type": "job",
+      "date": "Jun 2013",
+      "description": {
+        "what": "Marketing Intern at",
+        "emphasis": "State Bank of India",
+        "info": "Worked on market survey analysis and proposed financial schemes for credit risk reduction."
+      }
+    },
+    {
+      "type": "job",
+      "date": "May 2013",
+      "description": {
+        "what": "Graduated from",
+        "emphasis": "Anna University",
+        "info": "Graduated with a B.E. in Computer Science."
+      }
+    },
+    {
+      "type": "fun",
+      "date": "Summer 2012",
+      "description": {
+        "what": "Silver Medal for",
+        "emphasis": "Lawn Tennis",
+        "info": "Won the Silver Medal for Singles and Doubles Lawn Tennis. Ran a lot!"
+      }
+    },
+    {
+      "type": "job",
+      "date": "Summer 2012",
+      "description": {
+        "what": "CKO at",
+        "emphasis": "LemonIvy",
+        "info": "Overseen the activities of the entire Entrepreneurship-cell and incorporated the best knowledge management practices."
+      }
+    },
+    {
+      "type": "event",
+      "date": "Spring 2012",
+      "description": {
+        "what": "Event Coordinator -",
+        "emphasis": "Sandart",
+        "info": "Created awareness about entrepreneurship as a part of E-week 2012."
+      }
+    },
+    {
+      "type": "job",
+      "date": "Fall 2011",
+      "description": {
+        "what": "Software Developer",
+        "emphasis": "Daddyspocket.com",
+        "info": "My first step after my sophomore year. I ate so much food."
+      }
+    }
+  ]
+}
