@@ -1,6 +1,14 @@
 {
   "data": [
     {
+      "url": "https://github.com/Vignesh6v/Twitter-BotorNot",
+      "title": "Truthy – Bot or Not?: Checks the activity of a Twitter account and says whether it is a Bot/Human."
+    },
+    {
+      "url": "https://github.com/Vignesh6v/Distributed_Auction",
+      "title": "Distributed Auction System: To conduct real-time auction for services (car rental, hotel rental etc.) and products"
+    },
+    {
       "url": "https://github.com/Vignesh6v/Tweet-Trends",
       "title": "Tweet Trends: Bring your own customized category trending tweets."
     },
