@@ -27,10 +27,6 @@
     {
       "url": "https://github.com/Vignesh6v/Distributed-Key-Value-Store",
       "title": "Distributed key-value: In-memory key-value store with fault tolerance and consistency check."
-    },
-    {
-      "url": "http://blog.fogcreek.com/dev-life-interview-with-cassidy-williams/",
-      "title": "Nconnect- Facebook for Negihbours"
     }
   ]
 }
