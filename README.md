@@ -42,9 +42,9 @@ something simple, techy, and understandable.  And fast-loading, of course.
 So, as I was just messing with things in vim, I realized, "Wow, my vim setup is
 beautiful" and I copied myself.  Found some cool monospace webfonts, picked some
 nice accent colors from my terminal config, and voila.  A terminally-ill site
-("ill" meaning "sick" or "totally radical dude" like the kids say).
+("ill" meaning "sick" or "totally radical dude" like the kids say). 
 
 ## Future stuff
 Right now I'm happy with the site, but touch events on iPhone (thanks again,
 Safari) are weird.  You kind of have to told the toggle a bit.  I want to make
-that smoother, and maybe add an Easter egg or two. :)
+that smoother, and maybe add an Easter egg or two.  :)
