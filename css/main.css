@@ -545,7 +545,7 @@ footer {
     line-height: 32px;
     text-align: center;
     font-weight: 600;
-    color: #b3b3b3;
+    color: #aaa;
 }
 
 .vita-item .col2 {
@@ -566,7 +566,7 @@ footer {
     font-size: 14px;
     line-height: 14px;
     font-weight: 200;
-    color: #b3b3b3;
+    color: #aaa;
     margin: 0;
     padding-bottom: 10px;
 }
@@ -621,7 +621,7 @@ footer {
     display: inline-block;
     background-image: url('../image/avatar.jpg');
     border-radius: 50%;
-    box-shadow: 0 0 0 3px #fff, 0 0 0 4px #b3b3b3;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 4px #aaa;
     width: 80px;
     height: 80px;
 }
@@ -687,7 +687,7 @@ footer {
 
 .social-share p {
     font-size: 14px;
-    color: #b3b3b3;
+    color: #aaa;
 }
 
 .device-small {
@@ -910,7 +910,7 @@ footer {
     display: inline-block;
     max-width: 330px;
     padding: 10px;
-    border: 1px dashed #b3b3b3;
+    border: 1px dashed #aaa;
     border-radius: 5px;
     text-align: left;
 }
