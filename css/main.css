@@ -622,8 +622,8 @@ footer {
     background-image: url('../image/avatar.jpg');
     border-radius: 50%;
     box-shadow: 0 0 0 3px #fff, 0 0 0 4px #ccc;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
 }
 
 .author .avatar {
